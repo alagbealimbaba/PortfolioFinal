@@ -33,6 +33,7 @@ const PortfolioItem = ({ img, title, details }) => {
 
                     <div>
                       <span className="item__title">{title}</span>
+                      <link></link>
                       <span className="item__details">{desc}</span>
                     </div>
                   </li>

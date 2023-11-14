@@ -2,10 +2,9 @@ import React from "react";
 import {
   FaEnvelopeOpen,
   FaPhoneSquareAlt,
-  FaFacebookF,
   FaTwitter,
-  FaYoutube,
   FaLinkedin,
+  FaGithub,
 } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
 import "./contact.css";
@@ -46,28 +45,39 @@ const Contact = () => {
           </div>
 
           <div className="contact__socials">
-            <a href="https://facebook.com" className="contact__social-link">
-              <FaFacebookF />
-            </a>
-            <a href="https://twitter.com" className="contact__social-link">
+            <a
+              href="https://twitter.com/Superstarfish22"
+              className="contact__social-link"
+            >
               <FaTwitter />
             </a>
-            <a href="https://youtube.com" className="contact__social-link">
-              <FaYoutube />
+            <a
+              href="https://github.com/alagbealimbaba/"
+              className="contact__social-link"
+            >
+              <FaGithub />
             </a>
-            <a href="https://linkedin.com" className="contact__social-link">
+            <a
+              href="https://www.linkedin.com/in/alim-alagbe/"
+              className="contact__social-link"
+            >
               <FaLinkedin />
             </a>
           </div>
         </div>
 
-        <form className="contact__form">
+        <form
+          action="https://formspree.io/f/moqozeog"
+          method="POST"
+          className="contact__form"
+        >
           <div className="form__input-group">
             <div className="form__input-div">
               <input
                 type="text"
                 placeholder="Your Name"
                 className="form__control"
+                name="name"
               />
             </div>
 
@@ -76,6 +86,7 @@ const Contact = () => {
                 type="email"
                 placeholder="Your Email"
                 className="form__control"
+                name="_replyto"
               />
             </div>
 
@@ -84,6 +95,7 @@ const Contact = () => {
                 type="text"
                 placeholder="Your Subject"
                 className="form__control"
+                name="subject"
               />
             </div>
           </div>
@@ -92,6 +104,7 @@ const Contact = () => {
             <textarea
               placeholder="Your Message"
               className="form__control textarea"
+              name="message"
             ></textarea>
           </div>
 

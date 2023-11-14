@@ -9,12 +9,13 @@ import {
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-import Work1 from "./assets/project-1.jpeg";
-import Work2 from "./assets/project-2.jpg";
-import Work3 from "./assets/project-3.jpeg";
-import Work4 from "./assets/project-4.jpeg";
-import Work5 from "./assets/project-5.jpg";
-import Work6 from "./assets/project-6.jpg";
+import Work1 from "./assets/project-1.jpg";
+import Work2 from "./assets/project-3.png";
+import Work3 from "./assets/project-2.png";
+import Work4 from "./assets/To-do.png";
+import Work5 from "./assets/ipAddress.png";
+import Work6 from "./assets/TeachAssist.png";
+import Work7 from "./assets/bizwire.png";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -140,7 +141,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: "Feb - Apr 2023",
     title: "Student <span>Haut Institute</span>",
-    desc: "I was introduced to data structres, API integration and various JavaScript frameworks.",
+    desc: "I was introduced to data structures, API integration and various JavaScript frameworks.",
   },
 
   {
@@ -214,27 +215,27 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: "Photo Editing",
+    title: "Web Application",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Photo",
+        desc: "Rock, Paper and Scissors ",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "Netlify",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Photoshop",
+        desc: "HTML5, CSS, Javascript",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://rock-paper-scissors-game-81.netlify.app",
       },
     ],
   },
@@ -242,27 +243,27 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: "Website Design",
+    title: "Web Application",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Website",
+        desc: "Advice App Generator ",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "Netlify",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "React JS",
+        desc: "HTML5, CSS, Javascript, API",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://advice-app1221.netlify.app",
       },
     ],
   },
@@ -270,27 +271,27 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: "Video Editing",
+    title: "Landing Page",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Video",
+        desc: "Portfolio Template with GSAP page switching",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "Netlify",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Premium",
+        desc: "React JS, GSAP",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://portfolio-template1xx.netlify.app/",
       },
     ],
   },
@@ -298,27 +299,27 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: "Video Editing",
+    title: "Web Application",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Video",
+        desc: "To-Do App",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "Netlify",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Premium",
+        desc: "HTML5, CSS, Javascript",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://to-do-app-v1-0.netlify.app/",
       },
     ],
   },
@@ -326,23 +327,23 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: "Landing Page",
+    title: "Web Application",
     details: [
       {
         title: "Project : ",
-        desc: "Website",
+        desc: "IP Address Tracker",
       },
       {
         title: "Client : ",
-        desc: "Dribble",
+        desc: "Netlify",
       },
       {
         title: "Language : ",
-        desc: "React JS, Node JS",
+        desc: "HTML5, CSS, Javascript, API",
       },
       {
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://ip-address-tracker-v1-0.netlify.app/",
       },
     ],
   },
@@ -350,27 +351,54 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: "Photo Editing",
+    title: "Web Application",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Photo",
+        desc: "Teach Assist AI",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "Amazon Web Services",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Photoshop",
+        desc: "React JS, Node JS, Mongo DB",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dibble.com",
+        desc: "www.teachassist.ai",
+      },
+    ],
+  },
+  {
+    id: 7,
+    img: Work7,
+    title: "Web Application",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Bizwire Solutions",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "Netlify",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "React JS, Node JS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "Currently under development",
       },
     ],
   },
